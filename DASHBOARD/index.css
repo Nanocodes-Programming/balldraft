@@ -507,21 +507,40 @@ color:#1493ff;
 letter-spacing:1.5px;
 }
 
+.entry__parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 1%;
+  z-index: 20;
+  width: 100%;
+}
 .entry {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  background-color: white;
-  padding: 0;
-  justify-items: center;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0.5rem;
+gap: 2%;
+background-color: white;
   width: 60%;
-  position: relative;
-  left: 50%;
-  transform: translate(-50%, -20%);
   box-shadow: 2px 2px 5px black;
   border-radius: 0.3rem;
 }
-
+.entry p{
+  font-weight: bold;
+}
+.entry small{
+  font-size: 12px;
+}
+.entry button{
+  background-color: #1493ff;
+  color: white;
+  padding: 0.5rem 2rem;
+  border: none;
+  font-weight: bold ;
+  border-radius: 10px;
+}
 .entry li a {
   text-decoration: none;
   color: black;
