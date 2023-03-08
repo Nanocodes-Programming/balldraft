@@ -1339,7 +1339,7 @@ padding: 1rem;
 .free__play-content{
   display: flex;
   align-items: center;
-  padding-bottom: 1rem;
+  padding: 0.5rem 0;
   justify-content: space-between;
   gap: 2rem;
   border-bottom: 1px solid black;
@@ -1353,6 +1353,53 @@ padding: 1rem;
 .free__play-content aside:first-child p{
   font-size: 13px;
   margin: 0.4rem 0;
+}
+.free__entry--right-top{
+  position: relative;
+  /* padding: 1rem; */
+}
+.free__entry--right-top img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.right__text{
+  position: absolute;
+  bottom: 2%;
+  padding: 1rem;
+}
+.right__text h3{
+  font-size: 16px;
+  color: white;
+  margin-bottom: 0.3rem;
+}
+.free__entry--right{
+
+  padding: 0.5rem;
+}
+.free__entry--right-bottom img{
+  height: 60px;
+  width: 100px;
+  border-radius: 7px;
+  object-fit: cover;
+}
+.free__entry--right-bottom aside{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid;
+}
+.boot__text h4{
+  font-size: 14px;
+  color: #1493ff;
+}
+.boot__text p{
+  font-size: 12px;
+}
+.right__text p{
+  font-size: 14px;
+  color: white;
 }
 .free__play-content aside:nth-child(2) button{
   width: 100%;
