@@ -724,6 +724,10 @@ padding: 1rem;
   font-size: 15px;
 
 }
+.blessed{
+  height: 60px;
+  width: 60px;
+}
 .nba__right small{
   font-size: 12px;
 }
@@ -1251,7 +1255,7 @@ padding: 1rem;
 
 .seasonleague {
   /* display: flex; */
-  height: 16rem;
+  min-height: 13rem;
   background-color: white;
   width: 47%;
   position: relative;
@@ -1284,12 +1288,23 @@ padding: 1rem;
 
 .seasonleague__text {
   display: flex;
-  flex-flow: column wrap;
+  /* flex-flow: column wrap; */
   /* align-items: center; */
+  padding: 1.5rem ;
+  align-items: flex-start;
   justify-content: center;
   height: 13rem;
   padding-left: 1rem;
   border-radius: 0.4rem;
+}
+.seasonleague p{
+  font-size: 18px;
+}
+.piro{
+  color: black;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 20px;
 }
 /* free entry */
 .free__entry{
@@ -1303,11 +1318,57 @@ padding: 1rem;
 .free__entry--left{
   height: 60vh;
   width: 50%;
+  font-size: 18px;
+  padding: 1rem;
+}
+.free__entry--left img{
+  height: 80px ;
+  width: 80px;
+  object-fit: cover;
 }
 .free__entry--right{
   height: 70vh;
   width: 40%;
+  
 }
+.info_span{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.free__play-content{
+  display: flex;
+  align-items: center;
+  padding-bottom: 1rem;
+  justify-content: space-between;
+  gap: 2rem;
+  border-bottom: 1px solid black;
+}
+.free__play-content aside:first-child{
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  flex-basis: 70%;
+}
+.free__play-content aside:first-child p{
+  font-size: 13px;
+  margin: 0.4rem 0;
+}
+.free__play-content aside:nth-child(2) button{
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid steelblue;
+  background-color: white;
+  color: steelblue;
+}
+.free__play-content aside:nth-child(2) span{
+ font-size: 13px;
+ margin: 0.5rem 0;
+}
+.free__play-content aside:nth-child(2) b{
+  font-size: 15px;
+  margin: 0.5rem 0;
+ }
 .free__entry--right-top{
   height: 45%;
   background: url('../Images/kc.jpg')  cover;
