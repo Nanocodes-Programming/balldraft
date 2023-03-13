@@ -828,8 +828,21 @@ padding: 1rem;
 
 
 
-
-
+.tournaments{
+  display: flex;
+  padding: 1rem;
+}
+.tournaments aside{
+  width: 270px;
+  border: 1px solid blue;
+  margin: 0 0.5rem;
+}
+.tournaments h3{
+  color: steelblue;
+}
+.tournaments p{
+  font-size: 14px;
+}
 .entries__drafts a,
 .entries__display a {
   color: #1493ff;
