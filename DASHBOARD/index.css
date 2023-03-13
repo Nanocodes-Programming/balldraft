@@ -809,51 +809,54 @@ header {
   font-size: 14px;
 }
 
-.create__contest{
+.create__contest {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem;
 }
-.create__contest .search{
+.create__contest .search {
   flex-basis: 60%;
 }
-.create__contest .time{
+.create__contest .time {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.create__contest span:nth-child(2){
+.create__contest span:nth-child(2) {
   color: grey;
   font-size: 12px;
   text-transform: uppercase;
 }
-.create__contest .search input{
+.create__contest .search input {
   width: 100%;
   padding: 0.7rem;
   border-radius: 0.5rem;
   outline: #1493ff;
   border: 1px solid #1493ff;
 }
-.create__contest button{
+.create__contest button {
   padding: 0.5rem 2rem;
   border: none;
-  border-radius: 10px ;
+  border-radius: 10px;
   color: white;
   background-color: #4bbb7d;
   font-weight: bold;
   cursor: pointer;
 }
-.game__types{
+.game__types {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
   gap: 2%;
 }
-.game__types aside:nth-child(2){
-  flex-basis: 70%;
+.game__types aside:nth-child(2) {
+  flex-basis: 80%;
 }
-.game__types .p__text{
+.game__types aside:nth-child(1) {
+  flex-basis: 20%;
+}
+.game__types .p__text {
   text-align: center;
   padding: 1rem;
   border-radius: 10px;
@@ -862,44 +865,74 @@ header {
   font-weight: bold;
   text-transform: capitalize;
 }
-.game__types .game_play{
+.game__types .game_play {
   border-radius: 10px;
   border: 1px solid #1493ff;
   margin: 1rem 0;
 }
-.game__types .game_play article{
+.game__types .game_play article {
   font-size: 14px;
   margin: 0.5rem 0;
   padding: 1rem;
 }
-.game__types .game_play hr{
+.game__types .game_play hr {
   width: 70%;
   margin: auto;
   margin-top: 0.5rem;
 }
-.game__types .game_play figure{
+
+.game__types .game_play figure {
   display: flex;
   justify-content: space-between;
   /* padding: 1rem; */
   font-size: 14px;
   margin: 0.5rem 0;
 }
-.game__types .game_play h4{
+.game__types .game_play h4 {
   color: #1493ff;
 }
-.game__types .game_play figure div:nth-child(2){
+.game__types .game_play figure div:nth-child(2) {
   flex-basis: 60%;
   display: flex;
   gap: 1rem;
   align-items: center;
   justify-content: space-between;
 }
-.game__types .game_play figure div:nth-child(2) button{
-padding: 0.5rem 2rem;
-color: #1493ff;
-border: 1px solid #1493ff;
-border-radius: 10px;
-cursor: pointer;
+.game__types .game_play figure div:nth-child(2) button {
+  padding: 0.5rem 2rem;
+  color: #1493ff;
+  border: 1px solid #1493ff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+figure.styles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 15px;
+  height: 150px;
+  border: 1px solid #1493ff;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+.circle_text p{
+  font-size: 12px;
+}
+figure.styles h4 {
+  text-transform: capitalize;
+}
+.circle {
+  height: 20px;
+  width: 20px;
+  border: 5px solid #1493ff;
+  border-radius: 50%;
+}
+.circle__controller {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
 }
 .entries__drafts a,
 .entries__display a {
