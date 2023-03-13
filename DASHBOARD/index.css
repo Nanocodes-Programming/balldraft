@@ -844,6 +844,63 @@ header {
   font-weight: bold;
   cursor: pointer;
 }
+.game__types{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  gap: 2%;
+}
+.game__types aside:nth-child(2){
+  flex-basis: 70%;
+}
+.game__types .p__text{
+  text-align: center;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #1493ff;
+  color: #1493ff;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.game__types .game_play{
+  border-radius: 10px;
+  border: 1px solid #1493ff;
+  margin: 1rem 0;
+}
+.game__types .game_play article{
+  font-size: 14px;
+  margin: 0.5rem 0;
+  padding: 1rem;
+}
+.game__types .game_play hr{
+  width: 70%;
+  margin: auto;
+  margin-top: 0.5rem;
+}
+.game__types .game_play figure{
+  display: flex;
+  justify-content: space-between;
+  /* padding: 1rem; */
+  font-size: 14px;
+  margin: 0.5rem 0;
+}
+.game__types .game_play h4{
+  color: #1493ff;
+}
+.game__types .game_play figure div:nth-child(2){
+  flex-basis: 60%;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.game__types .game_play figure div:nth-child(2) button{
+padding: 0.5rem 2rem;
+color: #1493ff;
+border: 1px solid #1493ff;
+border-radius: 10px;
+cursor: pointer;
+}
 .entries__drafts a,
 .entries__display a {
   color: #1493ff;
