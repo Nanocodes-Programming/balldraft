@@ -808,6 +808,42 @@ header {
 .tournaments p {
   font-size: 14px;
 }
+
+.create__contest{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.create__contest .search{
+  flex-basis: 60%;
+}
+.create__contest .time{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.create__contest span:nth-child(2){
+  color: grey;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.create__contest .search input{
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  outline: #1493ff;
+  border: 1px solid #1493ff;
+}
+.create__contest button{
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 10px ;
+  color: white;
+  background-color: #4bbb7d;
+  font-weight: bold;
+  cursor: pointer;
+}
 .entries__drafts a,
 .entries__display a {
   color: #1493ff;
